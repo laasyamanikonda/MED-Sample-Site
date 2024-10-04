@@ -1,0 +1,257 @@
+html {
+  height: 100%;
+  width: 100%;
+  color: #2e2c38
+}
+
+menuBar {
+  text-align: center;
+
+
+
+}
+
+body {
+  margin: 0px;
+  border: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sidebar {
+  font-family: "Helvetica";
+  background: #DDD;
+  width: 230px;
+  display: block;
+  position: absolute;
+  left: -230px;
+  top: 0px;
+  transition: left 0.3s linear;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#sidebar.visible {
+  left: 0px;
+  transition: left 0.3s linear;
+}
+
+#sidebar-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 15px;
+  cursor: pointer;
+  margin: 20px;
+  position: absolute;
+  top: 0px;
+  right: -60px;
+}
+
+#sidebar-btn span {
+  height: 1.5px;
+  background: #111;
+  margin-bottom: 6px;
+  display: block;
+}
+
+#sidebar-btn span:nth-child(2) {
+  width: 75%
+}
+
+#sidebar-btn span:nth-child(3) {
+  width: 50%
+}
+
+
+#sideclose-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 15px;
+  cursor: pointer;
+  margin: 20px;
+  position: absolute;
+  top: -13px;
+  right: -60px;
+  visibility: hidden;
+  font-size: 30px;
+}
+
+
+
+/*set style for buttons*/
+
+.button {
+  border-radius: 1px;
+  display: block;
+  background-color: #DDD;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+  transition: 0.5s;
+  color: white;
+}
+
+.button:hover {
+  background-color: #6547b1;
+  color: white;
+  transition: 0s;
+}
+
+.img {
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding: 10px
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.vertical-section {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  /* Float the sections to make them side by side */
+}
+
+#vertical-section1 {
+  background-color: white;
+}
+
+#vertical-section2 {
+  background-color: #8f6fd0;
+}
+
+.content {
+  background-color: #CBC3E3 text-align: center;
+}
+
+#horizontal-section1 {
+
+  background-color: white;
+
+}
+
+#horizontal-section2 {
+
+  background-color: brown;
+
+}
+
+horizontal-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: down;
+  /* Float the sections to make them side by side */
+  height: 50%;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background-color: pink;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.section {
+
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #8f6fd0;
+}
+
+/* Optional styling for better visualization */
+.section:nth-child(odd) {
+  background-color: #8f6fd0;
+}
+
+.section:nth-child(even) {
+  background-color: #8f6fd0;
+}
+
+.aboutus {
+  text-align: center;
+
+}
+
+.margin {
+  margin-left: 20px;
+  margin-right: 20px;
+
+
+}
+
+@font-face {
+  font-family: "CUSTOM FONT FAMILY";
+  src: url(Merriweather.zip);
+}
+
+small {
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding: 10px
+}
+
+section22 {
+  background-color: #8f6fd0;
+
+
+
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
